@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "fastapi[standard-no-fastapi-cloud-cli]>=0.141.1",
+    "gradio>=6.28.0",
     "langchain>=1.4.2",
     "langchain-google-genai>=4.4.0",
     "langchain-groq>=1.1.3",
